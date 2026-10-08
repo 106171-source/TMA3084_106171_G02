@@ -12,7 +12,7 @@ void main() {
   // while loop keep asking until the size is valid
   while (price == 0) {
     print("Please enter your pizza size (small, medium, or large): ");
-    size = stdin.readLineSync()?.trim().toLowerCase();
+    size = stdin.readLineSync();
 
     switch (size) {
       case "small":
